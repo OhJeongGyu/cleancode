@@ -1,1 +1,2 @@
-# First Chapter
+# 깨끗한 코드 
+1. 
