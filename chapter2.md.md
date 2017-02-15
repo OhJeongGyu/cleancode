@@ -61,6 +61,13 @@ public static void copyChars(char a1[], char a2[]){
 ### 메서드 이름
 동사나 동사구가 적합하다. ```postPayment```, ```deletePage```, ```save```와 같은 이름이 좋은 예이다. 접근자, 변경자, 조건자는 javabean 표준에 따라 ```get```, ```set```, ```is```를 사용하자.
 
+**생성자를 중복 정의할 때는 정적 팩토리 메서드를 사용하자!**
+~~~
+Complex fulcrumPoint = Complex.FromRealNumber(23.0);  // (o), 생성자를 private로 선언하여 생성자를 통한 생성을 제한하자.(Effective Java 규칙2)
+
+Complex fulcrumPoint = new complex(23.0) // (x),  
+~~~
+
 
 
 
