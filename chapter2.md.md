@@ -34,8 +34,7 @@ public static void copyChars(char a1[], char a2[]){
 
 ### 발음하기 쉬운 이름을 사용하라.
 ```genymdhms```라는 이름을 사용. 의미는 generate date, year, month, day, hour, minute, second. -> 발음..젠 야 무다 힘즈 라고 읽었다고 함 ~!@~!@-_-
-
-
+```generateTimestamp```와 같은 이름으로 바꾸자.
 
 
 
