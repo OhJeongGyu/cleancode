@@ -52,6 +52,9 @@ public static void copyChars(char a1[], char a2[]){
     
 - 인터페이스 클래스와 구현 클래스
 
+### 자신의 기억력을 자랑하지 마라.
+
+
 
 
 
