@@ -38,6 +38,7 @@ public static void copyChars(char a1[], char a2[]){
 
 ### 검색하기 쉬운 이름을 사용하라.
 
+### 인코딩을 피하라.
 
 
 
