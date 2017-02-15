@@ -16,3 +16,29 @@
 최악의 변수명? 소문자```L```, 대문자```O```을 동시에 사용할 때. 
 
 ### 의미 있게 구분하라.
+
+```
+public static void copyChars(char a1[], char a2[]){
+    for(int i = 0 ; i< a1.length ; i++){
+        a2[i] = a1[i];
+    }
+}
+```
+> 변수의 이름을 ```source```와 ```destination```정도로 사용해도 코드를 읽는 데 훨씬 수월해진다!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
