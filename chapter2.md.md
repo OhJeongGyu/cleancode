@@ -64,10 +64,10 @@ public static void copyChars(char a1[], char a2[]){
 **생성자를 중복 정의할 때는 정적 팩토리 메서드를 사용하자!**
 ~~~
 Complex fulcrumPoint = Complex.FromRealNumber(23.0);  // (o), 생성자를 private로 선언하여 생성자를 통한 생성을 제한하자.(Effective Java 규칙2)
-
 Complex fulcrumPoint = new complex(23.0) // (x),  
 ~~~
 
+### 기발한 이름은 피하라.
 
 
 
