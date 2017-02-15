@@ -1,4 +1,4 @@
-###2017. 2. 15
+### 2017. 2. 15
 # 의미 있는 이름
 ---
 
@@ -11,3 +11,8 @@
 ### 그릇된 정보를 피하라.
 계정을 담는 컨테이너의 이름이 ``` accountList``` 인데, 실제 ```List```가 아니라면? 혼란을 가져온다. 차라리 ```accountGroup```, 혹은 ```bunchOfAccounts```와 같이 명명하라.
 
+서로 흡사한 이름을 사용하지 않는다. ```XYZControllerForEfficientHandlingOfStrings``` 와 ```XYZControllerForEfficientStorageOfStrings```를 동시에 상용한다면?
+
+최악의 변수명? 소문자```L```, 대문자```O```을 동시에 사용할 때. 
+
+### 의미 있게 구분하라.
