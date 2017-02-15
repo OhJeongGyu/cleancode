@@ -26,8 +26,8 @@ public static void copyChars(char a1[], char a2[]){
     }
 }
 ~~~
-> 변수의 이름을 ```source```와 ```destination```정도로 사용해도 코드를 읽는 데 훨씬 수월해진다!
 
+변수의 이름을 ```source```와 ```destination```정도로 사용해도 코드를 읽는 데 훨씬 수월해진다!
 불용어를 추가한 경우. ```ProductInfo```와 ```ProductData``` 이름만 다를 뿐 같은 의미이다.
 
 > ** 읽는 사람이 의미를 알 수 있도록 이름을 지어라.**
