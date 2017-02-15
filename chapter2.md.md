@@ -41,6 +41,9 @@ public static void copyChars(char a1[], char a2[]){
 
 ### 인코딩을 피하라.
 
+- 헝가리식 표기법
+- 멤버 변수 접두어
+- 인터페이스 클래스와 구현 클래스
 
 
 
