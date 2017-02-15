@@ -59,7 +59,7 @@ public static void copyChars(char a1[], char a2[]){
 클래스의 이름과 객체의 이름은 명사나 명사구를 사용하자. ```Customer```, ```WikiPage```, ```Account```와 같은 이름이 좋은 예이다.
 
 ### 메서드 이름
-동사나 동사구가 적합하다. 
+동사나 동사구가 적합하다. ```postPayment```, ```deletePage```, ```save```와 같은 이름이 좋은 예이다. 접근자, 변경자, 조건자는 javabean 표준에 따라 ```get```, ```set```, ```is```를 사용하자.
 
 
 
