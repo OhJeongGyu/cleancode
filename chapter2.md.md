@@ -69,6 +69,9 @@ Complex fulcrumPoint = new complex(23.0) // (x),
 
 ### 기발한 이름은 피하라.
 
+### 한 개념에 한 단어를 사용하라.
+
+
 
 
 
