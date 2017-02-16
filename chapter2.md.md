@@ -71,7 +71,7 @@ Complex fulcrumPoint = new complex(23.0) // (x),
 재밌는 이름을 사용하여 독자를 재밌게 할 수 있지만 ```deleteItems```와 같은 이름이 더욱 좋다. 
 
 ### 한 개념에 한 단어를 사용하라.
-```fetch```, ```retrieve```, ```get```와 같은 단어 중 선택해서 사용하자.  
+```fetch```, ```retrieve```, ```get```와 같은 단어 중 선택하자. 독자적이고 일관적으로. 
 
 
 
