@@ -126,15 +126,13 @@ render(boolean isSuite)
 ***Why?*** 어떤 코드든 절대로 무시를 하면 안된다. 
 
 ***삼항 함수***
+신중하라...
 
 ***인수 객체***
 ```
 Circle makeCircle(double x, double y, double radius);
 Circle makeCircle(Point center, double radius);
 ```
-r,meowj4d
-
-dasd
 
 
 
