@@ -164,7 +164,15 @@ Circle makeCircle(Point center, double radius);
 ```if (set("username", "unclebob"))...```
 와 같은 괴상한 코드가 만들어진다.
 
+```setAndCheckIfExists```와 같은 이름으로 바꾸어도 되지만, ```if```문에서는 여전히 어색하다.
 
+```
+if(attributeExists("username")) { 
+    setAttibute("username, "unclebob"));
+}
+```
+
+와 같이 **명령**과 **조회**를 분리하는 것이다! 
 
 
 
