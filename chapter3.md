@@ -26,3 +26,18 @@ TO 문단은 현재 추상화 수준을 설명.
 ### Switch 문
 각 Switch 문을 저차원 클래스에 숨기고 절대로 반복하지 않는 방법이 있다. **다형성**을 이용하는 것!
 
+```
+public Money calculatePay(Employee e) throws InvalidImployeesType{
+    switch(e.type) {
+        case COMMISSIONED :
+        return calculateCommisionedPay(e);
+        case HOURLY :
+        return calculateHourlyPay(e);
+        case SALARIED :
+        return calcuateSalariedPay(e);
+        dafault :
+        throw new InvalidEmployeeType(e.type);
+    }
+}
+```
+
