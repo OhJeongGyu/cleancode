@@ -110,9 +110,16 @@ void transform(StringBuffer out);
 ```
 StringBuffer transform(StringBuffer pageText);
 ```
-와 같이 사용하자.
+와 같이 사용하자. 
 
 
+***플래그 인수***
+플래스 인수는 추하다..함수가 **여러 가지** 일을 한다는 것을 공표한다....
+```
+render(boolean isSuite)
+```
+보다는 
+```renderForSuite()```와 ```renderForSingleTest()```로 나누어 사용하자!
 
 
 
