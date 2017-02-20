@@ -84,7 +84,7 @@ Complex fulcrumPoint = new complex(23.0) // (x),
 적절한 프로그래머 용어가 없다면 문제 영역에서 이름을 가져오라.
 
 ### 의미 있는 맥락을 추가하라.
-```street```, ```houseNumber```, ```city```, ```state```, ```zipcode```라는 변수가 있을 때 ```state```변수 하나만 사용한다면? 주소의 일부를 의미하는 것을 모른다! ```addrFirstName`, ```addrState```와 같이 주소의 일부라는 것을 분명히 해주자.
+```street```, ```houseNumber```, ```city```, ```state```, ```zipcode```라는 변수가 있을 때 ```state```변수 하나만 사용한다면? 주소의 일부를 의미하는 것을 모른다! ```addrFirstName```, ```addrState```와 같이 주소의 일부라는 것을 분명히 해주자.
 
 ### 불필요한 맥락을 없애라.
 클래스 이름을 ```AccountAddress```와 같은 이름으로 짓지 말라. ```accountAddress```, ```customerAddress```와 같은 이름은 ```Address```클래스의 인스턴스 이름으로 적합하다.
