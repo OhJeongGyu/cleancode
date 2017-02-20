@@ -156,6 +156,7 @@ Circle makeCircle(Point center, double radius);
 
 ### 명령과 조회를 분리하라
 함수는 뭔가를 수행하거나 뭔가에 답하거나 둘 중 하나만 해야 한다. 
+
 ```public booleab set(String attribute, String value);```
 이 함수는 
 
