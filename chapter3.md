@@ -135,7 +135,9 @@ Circle makeCircle(double x, double y, double radius);
 Circle makeCircle(Point center, double radius);
 ```
 
-
+***인수 목록***
+인수가 가변적인 함수. 
+```String.format("%s worked %.2f hours```과 같은 메서드가 좋은 
 
 
 
