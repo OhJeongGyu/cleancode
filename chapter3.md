@@ -127,6 +127,9 @@ render(boolean isSuite)
 
 ***삼항 함수***
 
+***인수 객체***
+
+
 
 
 
