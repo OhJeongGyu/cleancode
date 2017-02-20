@@ -146,7 +146,7 @@ Circle makeCircle(Point center, double radius);
 함수 이름에 키워드를 추가하는 형식. 함수 이름에 인수 이름을 넣자.
 ```assertEquals```보다 ```assertExpectedEqualsActual(expected, actual)```로 변경하자. 인수의 순서를 기억 할 필요가 없다.
 
-
+### 부수 효과를 일으키지 마라!
 
 
 
