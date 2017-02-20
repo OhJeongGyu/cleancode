@@ -121,6 +121,7 @@ render(boolean isSuite)
 보다는 
 ```renderForSuite()```와 ```renderForSingleTest()```로 나누어 사용하자!
 
+***이항 함수***
 
 
 
