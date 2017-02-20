@@ -149,12 +149,12 @@ Circle makeCircle(Point center, double radius);
 ### 부수 효과를 일으키지 마라!
 함수에서 한 가지를 하겠다고 약속하고 ***남몰래*** 다른 짓을 하게 하지 마라!
 
-### 출력 인수
+***출력 인수***
 ```appendFooter(s);```에서 ```s```는 출력일까 입력일까?
 선언문에는 ```public void appendFooter(StringBuffer report)```라 선언되어 있다. 인수가 출력을 위한 인수이다. 객체지향 언어에서 이러한 출력을 위한 인수는 필요하지 않다. 
 ```this```를 사용하자. ```report.appendFooter```와 같이 호출하는 방식이 좋다.
 
-
+### 명령과 조회를 분리하라
 
 
 
