@@ -203,3 +203,29 @@ try{
 
 
 ***Try/Catch 블록 뽑아내기***
+실제로 제거 동작을 하는 코드와 ```try/catch```코드가 동시에 있다면 혼란을 줄 수 있다. 별도의 함수로 뽑아내자.
+```
+public void delete(Page page){
+    try{
+        deletePageAndAllRefereneces(page);
+    }catch(Exceoption e){
+        logError(e);
+    }
+}
+
+private void deletePageAndAllReferences(Page page) throws Exception {
+    deletePage(page);
+    registry.deleteReference(page.name);
+    ...
+}
+...
+
+```
+
+
+
+
+
+
+
+
