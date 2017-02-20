@@ -97,6 +97,10 @@ String 파일 이름을 입력받아 InputStream 타입으로 반환한다.
 > 함수 이름을 지을 때 언제나 분명히 구분하라!
 
 
+아주 유용한 단항 함수 형식 **이벤트**
+```
+passwordAttemptFailedNtimes(int attempts)
+```
 
 
 
