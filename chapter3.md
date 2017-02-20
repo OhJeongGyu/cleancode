@@ -130,8 +130,6 @@ render(boolean isSuite)
 ***인수 객체***
 ```
 Circle makeCircle(double x, double y, double radius);
-```
-```
 Circle makeCircle(Point center, double radius);
 ```
 
