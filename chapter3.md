@@ -30,13 +30,13 @@ TO 문단은 현재 추상화 수준을 설명.
 public Money calculatePay(Employee e) throws InvalidImployeesType{
     switch(e.type) {
         case COMMISSIONED :
-        return calculateCommisionedPay(e);
+            return calculateCommisionedPay(e);
         case HOURLY :
-        return calculateHourlyPay(e);
+            return calculateHourlyPay(e);
         case SALARIED :
-        return calcuateSalariedPay(e);
+            return calcuateSalariedPay(e);
         dafault :
-        throw new InvalidEmployeeType(e.type);
+            throw new InvalidEmployeeType(e.type);
     }
 }
 ```
