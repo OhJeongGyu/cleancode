@@ -137,7 +137,8 @@ Circle makeCircle(Point center, double radius);
 
 ***인수 목록***
 인수가 가변적인 함수. 
-```String.format("%s worked %.2f hours```과 같은 메서드가 좋은 
+```String.format("%s worked %.2f hours);``` 처럼 가변 인수를 전부 동등하게 취급하면 List형 인수 하나로 취급할 수 있다. 
+
 
 
 
