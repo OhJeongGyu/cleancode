@@ -222,7 +222,23 @@ private void deletePageAndAllReferences(Page page) throws Exception {
 
 ```
 
+***오류 처리도 한 가지 작업이다.***
+함수와 마찬가지로 **오류**도 **한 가지** 작업에 속한다. 오류를 처리하는 함수는 오류만 처리하자. 
 
+***Error.java 의존성 자석***
+어떤 함수에서 에러코드를 반환한다면 다음과 같은 에러 코드를 정의해야 한다.
+```
+public enum Error {
+    OK,
+    INVALID,
+    NO_SUCH,
+    ...
+}
+
+```
+만약 이러한 에러 코드는 함수를 호출하는 클래스에서 import되야 하며, 이는 의존성을 갖게 한다. 만약 Error enum을 변경한다면 함수를 호출하는 곳에서도 에러 코드에 대한 변경이 불가피하다. **예외**!!를 사용하자.
+
+### 반복하지 마라!
 
 
 
