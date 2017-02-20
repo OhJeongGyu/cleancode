@@ -147,7 +147,10 @@ Circle makeCircle(Point center, double radius);
 ```assertEquals```보다 ```assertExpectedEqualsActual(expected, actual)```로 변경하자. 인수의 순서를 기억 할 필요가 없다.
 
 ### 부수 효과를 일으키지 마라!
+함수에서 한 가지를 하겠다고 약속하고 ***남몰래*** 다른 짓을 하게 하지 마라!
 
+### 출력 인수
+```appendFooter(s);```는 
 
 
 
