@@ -122,6 +122,11 @@ render(boolean isSuite)
 ```renderForSuite()```와 ```renderForSingleTest()```로 나누어 사용하자!
 
 ***이항 함수***
+```writeField(name)```은 ```write(outputStream, name)```보다 이해하기 쉽다. 후자는 ```write(outputStream, name)```는 첫 번째 인수를 무시해야 한다는 사실을 시간이 좀 지난 후에 깨닫는다. 그리고 문제를 일으킨다. 
+***Why?*** 어떤 코드든 절대로 무시를 하면 안된다. 
+
+***삼항 함수***
+
 
 
 
