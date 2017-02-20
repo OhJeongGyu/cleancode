@@ -187,10 +187,20 @@ if(deletePage(page) == E_OK){
     logger.log(~~);
 }
 ```
-와 같은 중첩적으로 if문 내에 명령 함수를 사용하기 떄문에 
+와 같은 중첩적으로 if문 내에 명령 함수를 사용하기 때문에 즉각적으로 오류 코드를 처리해야한다.
+
+반면, ***예외***를 사용한다면..
+```
+try{
+    deletePage(page);
+    registry.deleteReference(page.name);
+    ...
+}catch(Exception e){
+    logger.log(e.getMessage());
+}
+```
+와 같이 바뀐다. 오류처리 코드가 분리되어 코드가 깔끔해진다. 
 
 
-
-
-
+***Try/Catch 블록 뽑아내기***
 
