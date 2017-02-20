@@ -137,9 +137,12 @@ Circle makeCircle(Point center, double radius);
 
 ***인수 목록***
 인수가 가변적인 함수. 
-```String.format("%s worked %.2f hours);``` 처럼 가변 인수를 전부 동등하게 취급하면 List형 인수 하나로 취급할 수 있다. 
+```String.format("%s worked %.2f hours);``` 처럼 가변 인수를 전부 동등하게 취급하면 List형 인수 하나로 취급할 수 있다. 실제 선언부는 다음과 같다.
+``` public String format(String format, Object... args) ```
 
-
+***동사와 키워드***
+함수의 의도나 인수의 순서와 의도를 제대로 표현하려면 좋은 함수 이름이 필수이다. 단항 함수는 함수와 인수가 동사/명사 쌍을 이뤄야 한다.
+```write(name)```처럼 ```이름```과 ```쓴다```는 짝을 이루어야 한다. 좀 더 나은 이름은 ```writeFile(name)```이다. 
 
 
 
