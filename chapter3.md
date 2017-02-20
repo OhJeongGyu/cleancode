@@ -142,8 +142,9 @@ Circle makeCircle(Point center, double radius);
 
 ***동사와 키워드***
 함수의 의도나 인수의 순서와 의도를 제대로 표현하려면 좋은 함수 이름이 필수이다. 단항 함수는 함수와 인수가 동사/명사 쌍을 이뤄야 한다.
-```write(name)```처럼 ```이름```과 ```쓴다```는 짝을 이루어야 한다. 좀 더 나은 이름은 ```writeFile(name)```이다. 
-
+```write(name)```처럼 ```이름```과 ```쓴다```는 짝을 이루어야 한다. 좀 더 나은 이름은 ```writeField(name)```이다. 이름이 필드라는 사실이 분명해진다. 
+함수 이름에 키워드를 추가하는 형식. 함수 이름에 인수 이름을 넣자.
+```assertEquals```보다 ```assertExpectedEqualsActual(expected, actual)```로 변경하자. 인수의 순서를 기억 할 필요가 없다.
 
 
 
