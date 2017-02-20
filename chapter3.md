@@ -51,5 +51,5 @@ public Money calculatePay(Employee e) throws InvalidImployeesType{
 ```isPayday(Employee e, Date date);```,
 ```deliverPay(Employee e, Money pat);```
 와 같은 함수이다. 동일한 구조를 반복할 수 밖에 없다. 하나의 Switch만을 허락한다!
-
+**팩토리**를 사용해 switch문에서 적절한 Employee 파생 클래스의 인스턴스를 생성한다. 
 
