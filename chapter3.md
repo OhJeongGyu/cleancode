@@ -92,6 +92,27 @@ boolean fileExists("MyFile");
 InputStream fileOpen("MyFile")
 ```
 
+String 파일 이름을 입력받아 InputStream 타입으로 반환한다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
