@@ -40,7 +40,8 @@ public Money calculatePay(Employee e) throws InvalidImployeesType{
     }
 }
 ```
-문제점
+
+**문제점**
 1.함수가 길다. 새 직원 유형 추가되면 더 길어진다..
 2.한 가지 작업만 수행하지 않는다.
 3.SRP(Single Responsibility Principle)를 위반한다.
