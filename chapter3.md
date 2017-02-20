@@ -67,3 +67,8 @@ public cass EmployeeFactoryImpl implementes EmployeeFactory {
 }
 ```
 
+다음과 같이 다형적 객체를 생성하고, 내부의 switch문은 다른 코드에 절대로 노출시키지 않는다.
+
+###서술적인 이름을 사용하라!
+
+
