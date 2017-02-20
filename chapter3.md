@@ -101,7 +101,16 @@ String 파일 이름을 입력받아 InputStream 타입으로 반환한다.
 ```
 passwordAttemptFailedNtimes(int attempts)
 ```
+함수 호출을 이벤트로 해석해 입력 인수로 시스템의 상태를 바꾼다. 
 
+```
+void transform(StringBuffer out);
+```
+보다는  
+```
+StringBuffer transform(StringBuffer pageText);
+```
+와 같이 사용하자.
 
 
 
