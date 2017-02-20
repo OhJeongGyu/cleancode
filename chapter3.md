@@ -58,5 +58,11 @@ public interface EmployeeFactory{
     public Employee makeEmployee(EmployeeRecord r) throws InvalidEmployeeType;
 }
 
-
+public cass EmployeeFactoryImpl implementes EmployeeFactory {
+    public Employee(EmployeeRecord r) throws InvalidEmployeeType{
+        switch(r.type){
+            ...
+        }
+    }
+}
 ```
