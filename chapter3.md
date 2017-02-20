@@ -46,6 +46,10 @@ public Money calculatePay(Employee e) throws InvalidImployeesType{
 3.SRP(Single Responsibility Principle)를 위반한다.
 4.OCP(Open Closed Principles)를 위반한다. 직원 유형 추가할 때 마다 코드 변경
 
+**And** 가장 심각한 문제는 위 함수와 동일한 구조의 함수가 무한정 존재한다.
 
+```isPayday(Employee e, Date date);```,
+```deliverPay(Employee e, Money pat);```
+와 같은 함수이다. 
 
   
