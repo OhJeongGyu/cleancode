@@ -161,6 +161,8 @@ Circle makeCircle(Point center, double radius);
 
 이 함수를 호출하면, 
 
+```if (set("username", "unclebob"))...```
+와 같은 괴상한 코드가 만들어진다.
 
 
 
