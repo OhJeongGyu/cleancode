@@ -78,6 +78,16 @@ public cass EmployeeFactoryImpl implementes EmployeeFactory {
 **테스트 관점**
 인수가 없으면 간단하지만, 두 개 부터 복잡해지고, 3개면 상당히 부담스러워진다.
 
+***많이 쓰는 단항 형식***
+함수에 인수가 1개인 경우는 두 가지 이다.
+1. 인수에 질문을 던지는 경우
+```boolean fileExists("MyFile");
+```
+2. 인수를 뭔가로 변환해 결과를 반환하는 경우
+```
+InputStream fileOpen("MyFile")
+```
+
 
 
 
