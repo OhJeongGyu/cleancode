@@ -175,7 +175,19 @@ if(attributeExists("username")) {
 와 같이 **명령**과 **조회**를 분리하는 것이다! 
 
 ### 오류 코드보다 예외를 사용하라!
-
+명령 함수에서 오류코드를 반환하는 것은 명령/조회 분리 교칙을 어기는 것이다!
+```
+if(deletePage(page) == E_OK){
+    if(registry.deleteReference(page.name) == E_OK) {
+        ...
+    }else {
+        logger.log(~~);
+    }     
+}else{
+    logger.log(~~);
+}
+```
+와 같은 중첩적으로 if문 내에 명령 함수를 사용하기 떄문에 
 
 
 
