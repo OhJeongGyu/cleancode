@@ -129,10 +129,12 @@ render(boolean isSuite)
 신중하라...
 
 ***인수 객체***
+여러 개의 인수가 필요하다면 독자적인 크ㄹ래스 변수로 선언하자. 변수를 묶어 넘기려면 이름이 필요하므로 결국 개념을 표현하게 된다!
 ```
 Circle makeCircle(double x, double y, double radius);
 Circle makeCircle(Point center, double radius);
 ```
+
 
 
 
