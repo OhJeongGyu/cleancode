@@ -73,8 +73,7 @@ public cass EmployeeFactoryImpl implementes EmployeeFactory {
 
 ### 함수 인수
 이상적인 함수 인수는 0개이다. 다음은 1개, 그다음은 2개, 3개는 가능하면 피하는 편이 좋다. 4개 이상은 특별한 이유가 필요하다.
-
-
+```includeSetupPageInto(newPageContent)``` 보다 ```includeSetupPage()```가 이해하기 쉽다. 
 
 
 
