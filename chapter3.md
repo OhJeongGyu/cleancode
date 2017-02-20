@@ -82,9 +82,12 @@ public cass EmployeeFactoryImpl implementes EmployeeFactory {
 함수에 인수가 1개인 경우는 두 가지 이다.
 1. 인수에 질문을 던지는 경우
 
-```boolean fileExists("MyFile");
 ```
+boolean fileExists("MyFile");
+```
+
 2. 인수를 뭔가로 변환해 결과를 반환하는 경우
+
 ```
 InputStream fileOpen("MyFile")
 ```
