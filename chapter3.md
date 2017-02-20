@@ -47,4 +47,6 @@ public Money calculatePay(Employee e) throws InvalidImployeesType{
 3.SRP(Single Responsibility Principle)를 위반한다.
 4.OCP(Open Closed Principles)를 위반한다. 직원 유형 추가할 때 마다 코드 변경
 
+
+
   
