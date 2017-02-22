@@ -34,7 +34,12 @@ if(employee.isEligibleForFullBenefits())
 저작권, 소유권 등의 정보 
 
 ***정보를 제공하는 주석***
+메서드의 반환 값을 주석으로 달아도 좋지만 메서드 이름에서 무엇을 반환하는지 알도록 하여 주석을 없애면 더 좋다.
 
+```
+// kk:mm:ss EEE, MMM dd, yyyy 형식이다.
+Pattern timeMatcher = Pattern.compile("\\d*:\\d*~~~");
+```
 
 
 
