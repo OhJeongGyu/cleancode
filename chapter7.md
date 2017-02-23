@@ -88,15 +88,13 @@ if(Employee e : employees) {
 }
 ```
 와 같은 코드를 작성할 수 있다. Java의 ```Collection``` 프레임워크에는 빈 ```List```를 제공하는 함수가 존재한다.
+
 ```
 public List<Employee> getEmployees(){
     if( ...직원이 없다면){
-            return Collections.emptyList(); 
-} 
-
-
-
-
+        return Collections.emptyList(); 
+}
+```
 
 
 
