@@ -66,9 +66,33 @@ try{
 위와 같이 예외를 처리하는 클래스를 만들어 감쌀 수 있다. 
 
 ###정상 흐름을 정의하라
+***특수 사례 패턴(Special Case Pattern)***
+예외를 클래스 또는 메서드 내에서 처리하도록 하는 코드를 캡슐화하여 클라이언트 코드에서 신경을 쓰지 않도록 하는 패턴.
 
-
-
+###null을 반환하지 마라
+메서드에서 null을 반환하고싶은 유혹이 든다면 예외를 던지거나 특수 사례 객체를 반환하라. 
+```
+List<Employee> employees = getEmployees();
+if(employees!=null){
+    if(Employee e : employees) {
+        totalPay += e.getPay();
+    }
+}
+ 
+```
+다음과 같은 코드에서 ```getEmployees```는 null도 반환한다. null을 반환하지 않는다면    
+```
+List<Employee> employees = getEmployees();
+if(Employee e : employees) {
+    totalPay += e.getPay();
+}
+```
+와 같은 코드를 작성할 수 있다. Java의 ```Collection``` 프레임워크에는 빈 ```List```를 제공하는 함수가 존재한다.
+```
+public List<Employee> getEmployees(){
+    if( ...직원이 없다면){
+        return Collections.emptyList(); 
+} 
 
 
 
