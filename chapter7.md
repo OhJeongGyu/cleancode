@@ -97,6 +97,15 @@ public List<Employee> getEmployees(){
 }
 ```
 
+이처럼 null을 리턴하지 않는다면 코드도 깔끔해지고, ```NullPointerException```이 발생할 가능성이 줄어든다.
+
+###null을 전달하지 마라.
+null을 반환하는 메서드는 나쁘지만, null을 전달하는 메서드 또한 나쁘다. 메서드로 null을 전달하는 메서드 또한 피하자. 
+
+***TODO***
+annotation으로 null 전달 막기!?
+
+## 
 
 
 
