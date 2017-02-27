@@ -34,10 +34,10 @@
 ***변경으로부터 격리**
 클래스는 구체적인 클래스와 추상적인 클래스로 나뉜다. 구체적인 클래스는 상세한 기능을 구현한 클래스이고, 추상적인 클래스(추상 클래스, 인터페이스)는 개념만을 포함하며, 구현에 미치는 영향을 격리시킨다. 상세한 구현에 의존하는 코드는 테스트하기 어렵다. 
 
-```Portfolio``` 클래스는 ```TokyoStockExchange``` API를 직접 호출하는 대신 ```StockExchange```라는 인터페이스를 생성한 후 메서드 하나를 선언한다. 
+```Portfolio``` 클래스는 ```TokyoStockExchange``` API를 직접 호출하는 대신 ```StockExchange```라는 인터페이스를 생성한 후 메서드 하나를 선언한다. ```StockExchange```를 구현하여 ```TokyoStockExchange```를 흉내내는 테스트용 클래스를 작성할 수 있다. 
+
 
 ```
-
 public class Portfolio {
     private StockExchange exchange;
     public PortFolio(StockExchange exchange) {
